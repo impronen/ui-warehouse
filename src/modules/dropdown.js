@@ -3,7 +3,6 @@ const dropDown = (() => {
     const topItem = document.querySelector(`${topItemID}`);
     const dropdown = topItem.addEventListener("click", () => {
       const menuItems = document.querySelector(`${menuItemClass}`);
-      console.log(menuItems);
       menuItems.classList.toggle("show");
     });
   }
